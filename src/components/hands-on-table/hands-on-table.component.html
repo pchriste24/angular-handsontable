@@ -2,9 +2,11 @@
   <hot-table #hot class="hot" [afterChange]="onAfterChange" [data]="dataset" [colHeaders]="true" [rowHeaders]="true">
     <div *ngFor="let col of columns">
       <hot-column *ngIf="col.type === columnType.DROPDOWN" [data]="col.data" [renderer]="cellRenderer" [title]="col.title"
-        type="autocomplete" [source]="col.source"></hot-column>
-      <hot-column *ngIf="col.type === columnType.TEXT" [data]="col.data" [renderer]="cellRenderer" [title]="col.title"
-        type="text"></hot-column>
+        type="dropdown" [source]="col.source"></hot-column>
+      <hot-column *ngIf="col.type === columnType.TEXT" [validator]="col.validator" [data]="col.data" [renderer]="cellRenderer"
+        [title]="col.title" type="text"></hot-column>
+      <hot-column *ngIf="col.type === columnType.DATE" [validator]="col.validator" [data]="col.data" [renderer]="cellRenderer"
+        [title]="col.title" type="date"></hot-column>
     </div>
   </hot-table>
 </mat-card>
