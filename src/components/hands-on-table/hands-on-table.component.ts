@@ -1,11 +1,18 @@
 
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ChangeDetectorRef, Input } from '@angular/core';
 import * as Handsontable from 'handsontable';
 import { HotTableRegisterer } from '@handsontable/angular';
 import { validate, validatorTypes } from '../../shared/validatorFns';
 import SSNCustomEditor from './editors/hot-ssn-editor';
 import { COLUMN_TYPE, HotColumn } from './hot.models';
 
+/**
+  * Example of usage:
+  * @example
+  * <app-hands-on-table></app-hands-on-table>
+  *
+  * <example-url>./hands-on-table.component.html</example-url>
+  */
 @Component({
   selector: 'app-hands-on-table',
   encapsulation: ViewEncapsulation.None,
@@ -50,6 +57,9 @@ export class HandsOnTableComponent implements OnInit {
     { index: 7, firstName: 'Cora', address: 'Sunset Boulevard', employmentStatus: 'Active', relationshipValue: 'Employee' },
     { index: 8, firstName: 'Jack', address: 'Michigan Avenue', employmentStatus: 'Active', relationshipValue: 'Employee' },
   ];
+
+  @Input() allowAddRows = false;
+
   constructor(private _hotRegisterer: HotTableRegisterer, private cdr: ChangeDetectorRef) { }
 
   ngOnInit() {

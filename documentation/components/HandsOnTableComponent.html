@@ -1,0 +1,1662 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>hands-on-table documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">hands-on-table documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>HandsOnTableComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+        <li >
+            <a href="#example" role="tab" id="example-tab" data-toggle="tab" data-link="example">Examples</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/components/hands-on-table/hands-on-table.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Example of usage:</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+    <p class="comment">
+        <h3>Example</h3>
+    </p>
+    <div class="io-description">
+                <div>
+                    <pre class="line-numbers"><code class="language-html">&lt;app-hands-on-table&gt;&lt;/app-hands-on-table&gt;
+
+&lt;example-url&gt;./hands-on-table.component.html&lt;/example-url&gt;</code></pre>
+                </div>
+    </div>
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+            <tr>
+                <td class="col-md-3">changeDetection</td>
+                <td class="col-md-9"><code>ChangeDetectionStrategy.OnPush</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">encapsulation</td>
+                <td class="col-md-9"><code>ViewEncapsulation.None</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-hands-on-table</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./hands-on-table.component.less</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./hands-on-table.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#cellRenderer">cellRenderer</a>
+                            </li>
+                            <li>
+                                <a href="#columns">columns</a>
+                            </li>
+                            <li>
+                                <a href="#columnType">columnType</a>
+                            </li>
+                            <li>
+                                <a href="#dataset">dataset</a>
+                            </li>
+                            <li>
+                                <a href="#hotID">hotID</a>
+                            </li>
+                            <li>
+                                <a href="#onAfterChange">onAfterChange</a>
+                            </li>
+                            <li>
+                                <a href="#onRemoveRows">onRemoveRows</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#checkRowsForTriggers">checkRowsForTriggers</a>
+                            </li>
+                            <li>
+                                <a href="#disableCell">disableCell</a>
+                            </li>
+                            <li>
+                                <a href="#enableCell">enableCell</a>
+                            </li>
+                            <li>
+                                <a href="#getColIndex">getColIndex</a>
+                            </li>
+                            <li>
+                                <a href="#getEditorType">getEditorType</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#requireCell">requireCell</a>
+                            </li>
+                            <li>
+                                <a href="#unrequireCell">unrequireCell</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#allowAddRows">allowAddRows</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_hotRegisterer: HotTableRegisterer, cdr: <a href="https://angular.io/api/core/ChangeDetectorRef" target="_blank">ChangeDetectorRef</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:61</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_hotRegisterer</td>
+                                                  
+                                                        <td>
+                                                                    <code>HotTableRegisterer</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>cdr</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/core/ChangeDetectorRef" target="_blank" >ChangeDetectorRef</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="allowAddRows"></a>
+                        <code>allowAddRows</code>
+                    </td>
+                    <td class="col-md-10">
+                        <p>
+                            <em>Default value : </em><code>false</code>
+                        </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:61</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="checkRowsForTriggers"></a>
+                        <span class="name">
+                            <b>
+                            checkRowsForTriggers
+                            </b>
+                            <a href="#checkRowsForTriggers"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>checkRowsForTriggers(hotInstance: Handsontable, rows: number[])</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="141" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:141</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>hotInstance</td>
+                                                        <td>
+                                                                    <code>Handsontable</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>rows</td>
+                                                        <td>
+                                                                    <code>number[]</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="disableCell"></a>
+                        <span class="name">
+                            <b>
+                            disableCell
+                            </b>
+                            <a href="#disableCell"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>disableCell(hotInstance: Handsontable, row: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, cell: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="180" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:180</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>hotInstance</td>
+                                                        <td>
+                                                                    <code>Handsontable</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>row</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>cell</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="enableCell"></a>
+                        <span class="name">
+                            <b>
+                            enableCell
+                            </b>
+                            <a href="#enableCell"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>enableCell(hotInstance: Handsontable, row: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, cell: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="188" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:188</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>hotInstance</td>
+                                                        <td>
+                                                                    <code>Handsontable</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>row</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>cell</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getColIndex"></a>
+                        <span class="name">
+                            <b>
+                            getColIndex
+                            </b>
+                            <a href="#getColIndex"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>getColIndex(prop: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:69</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>prop</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getEditorType"></a>
+                        <span class="name">
+                            <b>
+                            getEditorType
+                            </b>
+                            <a href="#getEditorType"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>getEditorType(colIndex: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="207" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:207</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>colIndex</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnInit"></a>
+                        <span class="name">
+                            <b>
+                            ngOnInit
+                            </b>
+                            <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:65</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="requireCell"></a>
+                        <span class="name">
+                            <b>
+                            requireCell
+                            </b>
+                            <a href="#requireCell"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>requireCell(hotInstance: Handsontable, row: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, cell: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="197" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:197</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>hotInstance</td>
+                                                        <td>
+                                                                    <code>Handsontable</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>row</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>cell</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="unrequireCell"></a>
+                        <span class="name">
+                            <b>
+                            unrequireCell
+                            </b>
+                            <a href="#unrequireCell"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>unrequireCell(hotInstance: Handsontable, row: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, cell: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="202" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:202</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>hotInstance</td>
+                                                        <td>
+                                                                    <code>Handsontable</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>row</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>cell</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cellRenderer"></a>
+                        <span class="name">
+                            <b>
+                            cellRenderer
+                            </b>
+                            <a href="#cellRenderer"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>cellRenderer:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(hotInstance: Handsontable, td: HTMLElement, row: number, column: number, prop: number, value: any, cellProperties) &#x3D;&gt; {
+    Handsontable.renderers.TextRenderer.apply(this, [hotInstance, td, row, column, prop, value, cellProperties]);
+    let cellClassName &#x3D; hotInstance.getCellMeta(row, column).className;
+    if (cellClassName) {
+      cellClassName &#x3D; cellClassName.toString().split(&#x27; &#x27;);
+    } else {
+      cellClassName &#x3D; [];
+    }
+
+    for (let index &#x3D; 0; index &lt; cellClassName.length; index++) {
+      const className &#x3D; cellClassName[index].trim();
+      if (className.indexOf(&#x27;background-color-&#x27;) &gt; -1) {
+        const newBackGroundColor &#x3D; className.replace(&#x27;background-color-&#x27;, &#x27;&#x27;);
+        td.style.backgroundColor &#x3D; newBackGroundColor;
+      }
+    }
+
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:73</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="columns"></a>
+                        <span class="name">
+                            <b>
+                            columns
+                            </b>
+                            <a href="#columns"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>columns:     <code><a href="../interfaces/HotColumn.html" target="_self" >HotColumn[]</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/HotColumn.html" target="_self" >HotColumn[]</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    {
+      data: &#x27;relationshipValue&#x27;, title: &#x27;Relationship&#x27;, type: &#x27;dropdown&#x27;,
+      columnType: COLUMN_TYPE.DROPDOWN, source: [&#x27;Employee&#x27;, &#x27;Spouse&#x27;, &#x27;Child&#x27;]
+    },
+    { data: &#x27;firstName&#x27;, title: &#x27;First Name&#x27;, type: &#x27;text&#x27;, columnType: COLUMN_TYPE.TEXT },
+    {
+      data: &#x27;email&#x27;, title: &#x27;Email&#x27;, type: &#x27;text&#x27;, columnType: COLUMN_TYPE.TEXT, validator: validate([validatorTypes.EMAIL]),
+      secondaryRequiredTrigger: [{ data: &#x27;relationshipValue&#x27;, values: [&#x27;Employee&#x27;], requiredBackgroundColor: &#x27;#42f465&#x27; }]
+    },
+    {
+      data: &#x27;dateOfBirth&#x27;, title: &#x27;Birth Date&#x27;, type: &#x27;date&#x27;, columnType: COLUMN_TYPE.DATE,
+      requiredTriggers: [{ data: &#x27;relationshipValue&#x27;, values: [&#x27;Employee&#x27;] }]
+    },
+    {
+      data: &#x27;employmentStatus&#x27;, title: &#x27;Employment Status&#x27;, type: &#x27;dropdown&#x27;, columnType: COLUMN_TYPE.DROPDOWN, source: [&#x27;Active&#x27;, &#x27;Cobra&#x27;],
+      enabledTriggers: [{ data: &#x27;relationshipValue&#x27;, values: [&#x27;Employee&#x27;] }]
+    },
+    {
+      data: &#x27;ssn&#x27;, title: &#x27;SSN&#x27;, type: &#x27;text&#x27;, columnType: COLUMN_TYPE.SSN, editor: SSNCustomEditor,
+      validator: validate([validatorTypes.REQUIRED, validatorTypes.SSN])
+    },
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="columnType"></a>
+                        <span class="name">
+                            <b>
+                            columnType
+                            </b>
+                            <a href="#columnType"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>columnType:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>COLUMN_TYPE</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dataset"></a>
+                        <span class="name">
+                            <b>
+                            dataset
+                            </b>
+                            <a href="#dataset"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>dataset:     <code>any[]</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>any[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    { index: 1, firstName: &#x27;Ted&#x27;, address: &#x27;Wall Street&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 2, firstName: &#x27;Frank&#x27;, address: &#x27;Pennsylvania Avenue&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 3, firstName: &#x27;Joan&#x27;, address: &#x27;Broadway&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 4, firstName: &#x27;Gail&#x27;, address: &#x27;Bourbon Street&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Spouse&#x27; },
+    { index: 5, firstName: &#x27;Michael&#x27;, address: &#x27;Lombard Street&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 6, firstName: &#x27;Mia&#x27;, address: &#x27;Rodeo Drive&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 7, firstName: &#x27;Cora&#x27;, address: &#x27;Sunset Boulevard&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 8, firstName: &#x27;Jack&#x27;, address: &#x27;Michigan Avenue&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:50</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hotID"></a>
+                        <span class="name">
+                            <b>
+                            hotID
+                            </b>
+                            <a href="#hotID"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>hotID:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;handsOnTable1&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onAfterChange"></a>
+                        <span class="name">
+                            <b>
+                            onAfterChange
+                            </b>
+                            <a href="#onAfterChange"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>onAfterChange:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(hotInstance: Handsontable, changes: [[number, string, string, string]], source) &#x3D;&gt; {
+    if (source &#x3D;&#x3D;&#x3D; &#x27;dontcheck&#x27;) {
+      return;
+    }
+    // This event fires once for a simple edit
+    // Also, this fires once for a larger paste event that spans multiple cols and rows
+    // changes is a multidimensional array containing the [rowNumber, propThatWasChanged, oldValue, newValue]
+    if (source !&#x3D;&#x3D; &#x27;loadData&#x27;) {
+      const rowsToCheck &#x3D; changes.map(c &#x3D;&gt; c[0]);
+      this.checkRowsForTriggers(hotInstance, rowsToCheck);
+      if (!changes) { return; }
+    } else {
+      // check all rows
+      const rowsToCheck &#x3D; Array.from(Array(hotInstance.countRows()).keys());
+      this.checkRowsForTriggers(hotInstance, rowsToCheck);
+    }
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="123" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:123</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onRemoveRows"></a>
+                        <span class="name">
+                            <b>
+                            onRemoveRows
+                            </b>
+                            <a href="#onRemoveRows"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>onRemoveRows:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(hotInstance: Handsontable, startIndex: number, amount: number, physicalRows: number[], source: string) &#x3D;&gt; {
+
+    // This is where will make sure that if an employee is deleted then all of the employees dependents are
+    // being deleted as well.
+
+    let orphanedDependent &#x3D; false;
+    let employeeDeleted &#x3D; false;
+    for (let index &#x3D; startIndex; index &lt; this.dataset.length; index++) {
+      const person &#x3D; this.dataset[index];
+      if (index &lt;&#x3D; (startIndex + amount)) {
+        if (person.relationshipValue &#x3D;&#x3D;&#x3D; &#x27;Employee&#x27;) {
+          employeeDeleted &#x3D; true;
+          orphanedDependent &#x3D; false;
+        } else {
+          if (employeeDeleted) {
+            orphanedDependent &#x3D; true;
+          }
+        }
+      }
+
+      if (employeeDeleted) {
+
+      }
+
+    }
+
+    this.dataset.splice(startIndex, amount);
+    const rowsToCheck &#x3D; Array.from(Array(hotInstance.countRows()).keys());
+    this.checkRowsForTriggers(hotInstance, rowsToCheck);
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="92" class="link-to-prism">src/components/hands-on-table/hands-on-table.component.ts:92</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ChangeDetectorRef, Input } from &#x27;@angular/core&#x27;;
+import * as Handsontable from &#x27;handsontable&#x27;;
+import { HotTableRegisterer } from &#x27;@handsontable/angular&#x27;;
+import { validate, validatorTypes } from &#x27;../../shared/validatorFns&#x27;;
+import SSNCustomEditor from &#x27;./editors/hot-ssn-editor&#x27;;
+import { COLUMN_TYPE, HotColumn } from &#x27;./hot.models&#x27;;
+
+/**
+  * Example of usage:
+  * @example
+  * &lt;app-hands-on-table&gt;&lt;/app-hands-on-table&gt;
+  *
+  * &lt;example-url&gt;./hands-on-table.component.html&lt;/example-url&gt;
+  */
+@Component({
+  selector: &#x27;app-hands-on-table&#x27;,
+  encapsulation: ViewEncapsulation.None,
+  templateUrl: &#x27;./hands-on-table.component.html&#x27;,
+  styleUrls: [&#x27;./hands-on-table.component.less&#x27;],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class HandsOnTableComponent implements OnInit {
+  hotID &#x3D; &#x27;handsOnTable1&#x27;;
+  columnType &#x3D; COLUMN_TYPE;
+  columns: HotColumn[] &#x3D; [
+    {
+      data: &#x27;relationshipValue&#x27;, title: &#x27;Relationship&#x27;, type: &#x27;dropdown&#x27;,
+      columnType: COLUMN_TYPE.DROPDOWN, source: [&#x27;Employee&#x27;, &#x27;Spouse&#x27;, &#x27;Child&#x27;]
+    },
+    { data: &#x27;firstName&#x27;, title: &#x27;First Name&#x27;, type: &#x27;text&#x27;, columnType: COLUMN_TYPE.TEXT },
+    {
+      data: &#x27;email&#x27;, title: &#x27;Email&#x27;, type: &#x27;text&#x27;, columnType: COLUMN_TYPE.TEXT, validator: validate([validatorTypes.EMAIL]),
+      secondaryRequiredTrigger: [{ data: &#x27;relationshipValue&#x27;, values: [&#x27;Employee&#x27;], requiredBackgroundColor: &#x27;#42f465&#x27; }]
+    },
+    {
+      data: &#x27;dateOfBirth&#x27;, title: &#x27;Birth Date&#x27;, type: &#x27;date&#x27;, columnType: COLUMN_TYPE.DATE,
+      requiredTriggers: [{ data: &#x27;relationshipValue&#x27;, values: [&#x27;Employee&#x27;] }]
+    },
+    {
+      data: &#x27;employmentStatus&#x27;, title: &#x27;Employment Status&#x27;, type: &#x27;dropdown&#x27;, columnType: COLUMN_TYPE.DROPDOWN, source: [&#x27;Active&#x27;, &#x27;Cobra&#x27;],
+      enabledTriggers: [{ data: &#x27;relationshipValue&#x27;, values: [&#x27;Employee&#x27;] }]
+    },
+    {
+      data: &#x27;ssn&#x27;, title: &#x27;SSN&#x27;, type: &#x27;text&#x27;, columnType: COLUMN_TYPE.SSN, editor: SSNCustomEditor,
+      validator: validate([validatorTypes.REQUIRED, validatorTypes.SSN])
+    },
+  ];
+
+  dataset: any[] &#x3D; [
+    { index: 1, firstName: &#x27;Ted&#x27;, address: &#x27;Wall Street&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 2, firstName: &#x27;Frank&#x27;, address: &#x27;Pennsylvania Avenue&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 3, firstName: &#x27;Joan&#x27;, address: &#x27;Broadway&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 4, firstName: &#x27;Gail&#x27;, address: &#x27;Bourbon Street&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Spouse&#x27; },
+    { index: 5, firstName: &#x27;Michael&#x27;, address: &#x27;Lombard Street&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 6, firstName: &#x27;Mia&#x27;, address: &#x27;Rodeo Drive&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 7, firstName: &#x27;Cora&#x27;, address: &#x27;Sunset Boulevard&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+    { index: 8, firstName: &#x27;Jack&#x27;, address: &#x27;Michigan Avenue&#x27;, employmentStatus: &#x27;Active&#x27;, relationshipValue: &#x27;Employee&#x27; },
+  ];
+
+  @Input() allowAddRows &#x3D; false;
+
+  constructor(private _hotRegisterer: HotTableRegisterer, private cdr: ChangeDetectorRef) { }
+
+  ngOnInit() {
+    console.log(JSON.stringify(this.columns));
+  }
+
+  getColIndex(prop: string): number {
+    return this.columns.indexOf(this.columns.find(c &#x3D;&gt; c.data &#x3D;&#x3D;&#x3D; prop));
+  }
+
+  cellRenderer &#x3D; (hotInstance: Handsontable, td: HTMLElement, row: number, column: number, prop: number, value: any, cellProperties) &#x3D;&gt; {
+    Handsontable.renderers.TextRenderer.apply(this, [hotInstance, td, row, column, prop, value, cellProperties]);
+    let cellClassName &#x3D; hotInstance.getCellMeta(row, column).className;
+    if (cellClassName) {
+      cellClassName &#x3D; cellClassName.toString().split(&#x27; &#x27;);
+    } else {
+      cellClassName &#x3D; [];
+    }
+
+    for (let index &#x3D; 0; index &lt; cellClassName.length; index++) {
+      const className &#x3D; cellClassName[index].trim();
+      if (className.indexOf(&#x27;background-color-&#x27;) &gt; -1) {
+        const newBackGroundColor &#x3D; className.replace(&#x27;background-color-&#x27;, &#x27;&#x27;);
+        td.style.backgroundColor &#x3D; newBackGroundColor;
+      }
+    }
+
+  }
+
+  onRemoveRows &#x3D; (hotInstance: Handsontable, startIndex: number, amount: number, physicalRows: number[], source: string) &#x3D;&gt; {
+
+    // This is where will make sure that if an employee is deleted then all of the employees dependents are
+    // being deleted as well.
+
+    let orphanedDependent &#x3D; false;
+    let employeeDeleted &#x3D; false;
+    for (let index &#x3D; startIndex; index &lt; this.dataset.length; index++) {
+      const person &#x3D; this.dataset[index];
+      if (index &lt;&#x3D; (startIndex + amount)) {
+        if (person.relationshipValue &#x3D;&#x3D;&#x3D; &#x27;Employee&#x27;) {
+          employeeDeleted &#x3D; true;
+          orphanedDependent &#x3D; false;
+        } else {
+          if (employeeDeleted) {
+            orphanedDependent &#x3D; true;
+          }
+        }
+      }
+
+      if (employeeDeleted) {
+
+      }
+
+    }
+
+    this.dataset.splice(startIndex, amount);
+    const rowsToCheck &#x3D; Array.from(Array(hotInstance.countRows()).keys());
+    this.checkRowsForTriggers(hotInstance, rowsToCheck);
+  }
+
+  onAfterChange &#x3D; (hotInstance: Handsontable, changes: [[number, string, string, string]], source) &#x3D;&gt; {
+    if (source &#x3D;&#x3D;&#x3D; &#x27;dontcheck&#x27;) {
+      return;
+    }
+    // This event fires once for a simple edit
+    // Also, this fires once for a larger paste event that spans multiple cols and rows
+    // changes is a multidimensional array containing the [rowNumber, propThatWasChanged, oldValue, newValue]
+    if (source !&#x3D;&#x3D; &#x27;loadData&#x27;) {
+      const rowsToCheck &#x3D; changes.map(c &#x3D;&gt; c[0]);
+      this.checkRowsForTriggers(hotInstance, rowsToCheck);
+      if (!changes) { return; }
+    } else {
+      // check all rows
+      const rowsToCheck &#x3D; Array.from(Array(hotInstance.countRows()).keys());
+      this.checkRowsForTriggers(hotInstance, rowsToCheck);
+    }
+  }
+
+  checkRowsForTriggers(hotInstance: Handsontable, rows: number[]) {
+    let columnIndex: number;
+    rows.forEach(row &#x3D;&gt; {
+      this.columns.forEach(col &#x3D;&gt; {
+        if (col.requiredTriggers) {
+          columnIndex &#x3D; this.columns.indexOf(col);
+          col.requiredTriggers.forEach(trigger &#x3D;&gt; {
+            if (trigger.values.indexOf(hotInstance.getDataAtRowProp(row, trigger.data)) &gt;&#x3D; 0) {
+              this.requireCell(hotInstance, row, columnIndex);
+            } else {
+              this.unrequireCell(hotInstance, row, columnIndex);
+            }
+          });
+        }
+        if (col.enabledTriggers) {
+          col.enabledTriggers.forEach(trigger &#x3D;&gt; {
+            columnIndex &#x3D; this.columns.indexOf(col);
+            if (trigger.values.indexOf(hotInstance.getDataAtRowProp(row, trigger.data)) &gt;&#x3D; 0) {
+              this.enableCell(hotInstance, row, columnIndex);
+            } else {
+              this.disableCell(hotInstance, row, columnIndex);
+            }
+          });
+        }
+        if (col.secondaryRequiredTrigger) {
+          col.secondaryRequiredTrigger.forEach(trigger &#x3D;&gt; {
+            columnIndex &#x3D; this.columns.indexOf(col);
+            if (trigger.values.indexOf(hotInstance.getDataAtRowProp(row, trigger.data)) &gt;&#x3D; 0) {
+              hotInstance.setCellMeta(row, columnIndex, &#x27;className&#x27;, &#x27;background-color-&#x27; + trigger.requiredBackgroundColor);
+            } else {
+              hotInstance.setCellMeta(row, columnIndex, &#x27;className&#x27;, &#x27;&#x27;);
+            }
+          });
+        }
+      });
+    });
+    this.cdr.detectChanges();
+  }
+
+  disableCell(hotInstance: Handsontable, row: number, cell: number) {
+    console.log(&#x27;Disabled &#x27; + row + &#x27; : &#x27; + cell);
+    hotInstance.setCellMeta(row, cell, &#x27;className&#x27;, &#x27;disabledCell&#x27;);
+    hotInstance.setCellMeta(row, cell, &#x27;readonly&#x27;, &#x27;true&#x27;);
+    hotInstance.setCellMeta(row, cell, &#x27;fillHandle&#x27;, &#x27;false&#x27;);
+    hotInstance.setDataAtCell(row, cell, undefined, &#x27;dontcheck&#x27;);
+  }
+
+  enableCell(hotInstance: Handsontable, row: number, cell: number) {
+    console.log(&#x27;Enabled &#x27; + row + &#x27; : &#x27; + cell);
+    hotInstance.setCellMeta(row, cell, &#x27;readonly&#x27;, &#x27;false&#x27;);
+    hotInstance.setCellMeta(row, cell, &#x27;fillHandle&#x27;, &#x27;true&#x27;);
+    hotInstance.setCellMeta(row, cell, &#x27;className&#x27;, &#x27;&#x27;);
+    // called to rerender the cell after enabling
+    hotInstance.setDataAtCell(row, cell, hotInstance.getDataAtCell(row, cell), &#x27;dontcheck&#x27;);
+
+  }
+  requireCell(hotInstance: Handsontable, row: number, cell: number) {
+    console.log(&#x27;Required &#x27; + row + &#x27; : &#x27; + cell);
+
+    hotInstance.setCellMeta(row, cell, &#x27;required&#x27;, &#x27;true&#x27;);
+  }
+  unrequireCell(hotInstance: Handsontable, row: number, cell: number) {
+    console.log(&#x27;Unrequired &#x27; + row + &#x27; : &#x27; + cell);
+
+    hotInstance.setCellMeta(row, cell, &#x27;required&#x27;, &#x27;true&#x27;);
+  }
+  getEditorType(colIndex: number) {
+    switch (this.columns[colIndex].columnType) {
+      case COLUMN_TYPE.SSN:
+        return SSNCustomEditor;
+        break;
+      case COLUMN_TYPE.DATE:
+      case COLUMN_TYPE.DROPDOWN:
+      case COLUMN_TYPE.TEXT:
+        return &#x27;text&#x27;;
+    }
+  }
+}
+
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;mat-card&gt;
+  &lt;hot-table #hot class&#x3D;&quot;hot&quot; [afterChange]&#x3D;&quot;onAfterChange&quot; [data]&#x3D;&quot;dataset&quot; [colHeaders]&#x3D;&quot;true&quot; [afterRemoveRow]&#x3D;&quot;onRemoveRows&quot;
+    contextMenu&#x3D;&quot;true&quot; [rowHeaders]&#x3D;&quot;true&quot;&gt;
+    &lt;div *ngFor&#x3D;&quot;let col of columns&quot;&gt;
+      &lt;hot-column [data]&#x3D;&quot;col.data&quot; [renderer]&#x3D;&quot;cellRenderer&quot; [title]&#x3D;&quot;col.title&quot; [type]&#x3D;&quot;col.type&quot; [validator]&#x3D;&quot;col.validator&quot;
+        [editor]&#x3D;&quot;col.editor&quot; [source]&#x3D;&quot;col.source&quot;&gt;&lt;/hot-column&gt;
+    &lt;/div&gt;
+  &lt;/hot-table&gt;
+&lt;/mat-card&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./hands-on-table.component.less</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;handsontable/dist/handsontable.full.css&#x27;;
+
+td.disabledCell{
+    background-color: grey
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade " id="c-example">
+            <iframe class="exampleContainer" src="./hands-on-table.component.html">
+                <p>no-iframes</p>
+            </iframe>
+    </div>
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><mat-card>  <hot-table #hot class="hot" [afterChange]="onAfterChange" [data]="dataset" [colHeaders]="true" [afterRemoveRow]="onRemoveRows"    contextMenu="true" [rowHeaders]="true">    <div *ngFor="let col of columns">      <hot-column [data]="col.data" [renderer]="cellRenderer" [title]="col.title" [type]="col.type" [validator]="col.validator"        [editor]="col.editor" [source]="col.source"></hot-column>    </div>  </hot-table></mat-card></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'HandsOnTableComponent', 'selector': 'app-hands-on-table'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'HandsOnTableComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'HandsOnTableComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
